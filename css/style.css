@@ -19,8 +19,9 @@
 }
 
 body {
-  background-color: var(--primary-bg-color);
+  background-color: var(--white-color);
   color: var(--primary-text-color);
+  margin: 0;
 
   font-family: 'Roboto', sans-serif;
 }
@@ -90,10 +91,6 @@ p {
   display: flex;
   margin-left: 93px;
 }
-
-/* .site-nav .item + .item {  aналогично .site-nav .item:not(:last-child)
-  margin-left: 50px;
-}  */
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -360,6 +357,7 @@ p {
 .filter-tabs {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .filter-tabs .item + .item {
