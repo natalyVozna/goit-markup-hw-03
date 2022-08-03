@@ -320,9 +320,6 @@ p {
 /* Footer */
 .footer {
   background: #2f303a;
-}
-
-.footer-container {
   padding: 60px 0;
 }
 
@@ -371,6 +368,7 @@ p {
 }
 
 .portfolio .item {
+  border: 1px solid #eeeeee;
   width: 370px;
   margin: 15px;
   /* width: calc((100% - 60px) / 3); */
@@ -386,10 +384,17 @@ p {
   margin-bottom: 0;
 } */
 
+.portfolio .info-box {
+  padding: 20px 24px;
+}
+
 .portfolio-title {
+  margin-bottom: 4px;
+
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
@@ -397,4 +402,5 @@ p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  line-height: 1.87;
 }
