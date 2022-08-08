@@ -252,7 +252,6 @@ p {
 /* Advantages */
 .advantages {
   display: flex;
-  /* flex-wrap: wrap; */
 }
 
 .advantages .item {
